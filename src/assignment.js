@@ -28,7 +28,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    let arrList = []
+    let arrList = [];
     arrayOfNumbers.filter(num => {
         if(num%2 === 0){
             arrList.push(num)
